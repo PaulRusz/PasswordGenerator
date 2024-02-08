@@ -1,7 +1,7 @@
 
 //passwordOptions has all the necessary data required to generate the password requested
 function generatePassword() {
-  //these variables contain all the characters that will be chosen for the password
+//these variables contain all the characters that will be chosen for the password
   var password = ""
   var chosenCharacters = ""
   var userPasswordLength = prompt("Choose a length for your password between 8 and 128 characters");
@@ -23,7 +23,7 @@ function generatePassword() {
     chosenCharacters = chosenCharacters + "!@#$%^&*()"
   }
 
-//If the user selects a password < 8 or > 128 a prompt will appear to let the user know they need to select a number between 8 & 128
+//if the user selects a password < 8 or > 128 a prompt will appear to let the user know they need to select a number between 8 & 128
   if (userPasswordLength < 8 || userPasswordLength > 128) {
     alert ("Invalid password length.  Please choose a password length between 8 and 128.")
     var userPasswordLength = prompt("Choose a length for your password between 8 and 128 characters")
