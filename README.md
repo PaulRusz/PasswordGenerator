@@ -1,6 +1,7 @@
 # PasswordGenerator
 Password Generator for Module 3 - JavaScript
 
+
 ## Description
 The website is used for freely creating a password of the users choosing.  The user is able to enter the length that they'd like a password to be and then generate a password based on other simple prompts that come up.  
 
