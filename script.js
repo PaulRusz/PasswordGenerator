@@ -22,6 +22,18 @@ function generatePassword() {
     chosenCharacters = chosenCharacters + "!@#$%^&*()"
   }
 
+
+  if (userPasswordLength < 8 || userPasswordLength > 128) {
+    alert ("Invalid password length.  Please choose a password length between 8 and 128.")
+    var userPasswordLength = prompt("Choose a length for your password between 8 and 128 characters")
+  } 
+
+  if (confirmUpper === false && confirmLower === false 
+  && confirmNumbers === false && confirmSpecial === false) {
+    window.alert("Please choose a character type for your password");
+  }
+  
+
   for (let i = 0; i < userPasswordLength; i++) {
     password = password + chosenCharacters.charAt(Math.floor(Math.random()* chosenCharacters.length))
   }
