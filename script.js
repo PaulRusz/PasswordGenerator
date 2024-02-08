@@ -4,9 +4,9 @@
 function generatePassword() {
   var password = ""
   var chosenCharacters = ""
-  var userPasswordLength = prompt("Choose length of password between 8 and 128 characters");
-  var confirmUpper = confirm("Do you want uppercase letters?")
-  var confirmLower = confirm("Do you want lowercase letters?")
+  var userPasswordLength = prompt("Choose a length for your password between 8 and 128 characters");
+  var confirmUpper = confirm("Do you want any uppercase letters?")
+  var confirmLower = confirm("Do you want any lowercase letters?")
   var confirmNumbers= confirm("Do you want any numbers?")
   var confirmSpecial = confirm("Do you want any special characters?")
   if (confirmUpper === true) {
