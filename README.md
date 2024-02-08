@@ -12,7 +12,7 @@ I built the website as an exercise to help further my knowledge in JavaScript an
 While I was provided with the HTML and CSS, I did change some of it to make it a style that I preferred.  The JavaScript portion was written by me which showed me how to further utilize JavaScript to create websites.
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - N/A
 
